@@ -1,0 +1,97 @@
+
+
+body {
+    background: #e5e5e5;
+}
+
+/*header*/
+.mainheader{
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+
+}
+.logo{
+    overflow: hidden;
+    float: left;
+}
+.mainheader img{
+    width: 15%;
+    height: auto;
+}
+
+.mainheader a{ /* text van nav bar */
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+.mainheader ul li { /* van de unoorderd list */
+    float: right;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.mainheader ul img{ /* voor het winkel mandje*/
+    margin-left: 20px;
+    float: right;
+    width: 2%;
+}
+.maincontant{
+    background: white;
+    margin-left: 2%;
+    margin-top: 4%;
+    float: left;
+    width: 60%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.contant{
+    padding-left: 3%;
+    padding-right: 5% ;
+    margin-top: 2%;
+}
+.leftside{
+
+    float: left;
+    margin-left:5%;
+    margin-top:4% ;
+    width: 30%;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+}
+.mainFooter p{
+    width: 92%;
+    margin-left: 2%;
+}
+.mainFooter{
+    width: 96%;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:white;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/*contact page */
+.maincontact{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: white;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.contact_contant{
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
